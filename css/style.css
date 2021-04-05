@@ -1,0 +1,108 @@
+.container{
+    margin-bottom: 100px;
+}
+.carousel-item {
+    transition-delay: 0.2s;
+}
+.nav-link{
+    font-weight: bold;
+}
+.navbar-nav{
+    height:60px;
+}
+#search-btn{
+    position:relative;
+    right:17%;
+    border-radius: 2%;
+    border-style: none;
+    background-color: white;
+    border-image: inherit;
+    -webkit-border-radius: 2%;
+    -moz-border-radius: 2%;
+    -ms-border-radius: 2%;
+    -o-border-radius: 2%;
+}
+/*carousel style*/
+.carousel-bg{
+    background-color: #FCEAE8;
+    border-radius: 10px;
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+.price{
+    color:#FF136F;
+    padding-bottom: 10px;
+}
+.buy-btn{
+   background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+   color:#ffff;
+   border:none;
+   text-decoration: none;
+   border-radius: 8px;
+   padding: 9px 25px;
+   cursor: pointer;
+        
+}
+/* style of categories */
+.categories:hover{
+    cursor:pointer;
+}
+.categories img{
+    width:100px;
+}
+.cat-1, .cat-2, .cat-3{
+    padding: 10px 30px;
+    color:#ffff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.cat-1{
+    background-color: #FFA500;
+}
+.cat-2{
+    background-color: #DA70D6;
+}
+.cat-3{
+    background-color: #0000FF;
+}
+/* single product */
+.card{
+    border-radius: 10px;
+    box-shadow: lightgray 5px 5px 10px;
+    height:100%;
+}
+.card-footer{
+        background-color:white;
+        border-top:none;
+    }
+#contactus{
+    height:300px;
+    background-color: #FCEAE8;
+    border-radius:10px ;
+    -webkit-border-radius:10px ;
+    -moz-border-radius:10px ;
+    -ms-border-radius:10px ;
+    -o-border-radius:10px ;
+}
+#contactus h6{
+    color:gray;
+}
+.form-control{
+    margin-bottom: 5px;
+}
+/* responsive design */
+@media screen and (max-width:768px){
+    .cat-1, .cat-2, .cat-3{
+        margin-bottom: 10px;
+    }
+    .single-product{
+        margin-bottom: 15px;
+    }
+}
+@media screen and (min-device-width: 769px) and (max-device-width: 991px) { 
+    .watch, .bag, .shoes{font-size:25px;}
+}

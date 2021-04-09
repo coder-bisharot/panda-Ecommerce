@@ -95,14 +95,37 @@
     margin-bottom: 5px;
 }
 /* responsive design */
+/* @media screen and (min-device-width:576px) and (max-device-width:768px){
+    .carousel-item h1{
+        font-size:1rem;
+    }
+    .carousel-item p{
+        font-size:x-small;
+    }  
+} */
 @media screen and (max-width:768px){
     .cat-1, .cat-2, .cat-3{
         margin-bottom: 10px;
     }
     .single-product{
         margin-bottom: 15px;
+    }    
+    .carousel-item h1{
+        font-size:1rem;
+    }
+    .carousel-item p{
+        font-size:x-small;
+    }   
+}
+@media screen and (max-width:991px){
+    .navbar-nav{
+        height: 100%;
+    }
+    .nav-link{
+        padding:1%;
     }
 }
 @media screen and (min-device-width: 769px) and (max-device-width: 991px) { 
     .watch, .bag, .shoes{font-size:25px;}
 }
+
